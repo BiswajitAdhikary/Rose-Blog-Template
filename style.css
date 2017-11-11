@@ -6,3 +6,100 @@ Author URI: https://rosetheme.com/
 Description: This is HTML quick start using Bootstrap & Font Awesome for front-end web developer.
 Version: 1.0.1
 */
+
+/*
+==========
+Start all basic css ---------------------------------
+==========
+*/
+
+/*
+==========
+End all basic css -----------------------------------
+==========
+*/
+.header-top-area {
+	background-color: #23282D;
+	padding: 10px 0;
+}
+.social-links {
+
+}
+.social-links ul {
+	margin: 0;
+	padding: 0;
+}
+.social-links ul li {
+	display: inline-block;
+}
+.social-links ul li a {
+	margin: 5px;
+    display: block;
+}
+.social-links ul li a i {
+	font-size: 25px;
+    color: #fff;
+    transition: .3s;
+}
+.social-links ul li a i:hover {
+	opacity: .8;
+}
+.header-search input {
+	position: relative;
+	border-radius: 3px;
+}
+.header-search button {
+    position: absolute;
+    top: 3px;
+    right: 18px;
+    background-color: #23282D;
+    border: none;
+    color: #fff;
+    height: 32px;
+    width: 32px;
+    border-radius: 3px;
+    text-align: center;
+    transition: .3s;
+}
+.header-search button:hover {
+	cursor: pointer;
+	opacity: .8;
+}
+.site-logo {
+	padding: 25px 0;
+}
+.site-logo img {
+	height: 100px;
+	width: auto;
+	margin: 15px;
+}
+.site-menu-area {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.site-menu {
+	
+}
+.site-menu ul {
+	margin: 0;
+	padding: 0;
+}
+.site-menu ul li {
+	display: inline-block;
+}
+.site-menu ul li a {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #333;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: .3s;
+}
+.site-menu ul li a:hover {
+	opacity: .8;
+}
+/*
+==========
+Start header top area css ---------------------------
+==========
+*/
