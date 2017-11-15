@@ -18,6 +18,12 @@ Start all basic css ---------------------------------
 End all basic css -----------------------------------
 ==========
 */
+
+/*
+==========
+Start header area css ---------------------------
+==========
+*/
 .header-top-area {
 	background-color: #23282D;
 	padding: 10px 0;
@@ -76,30 +82,33 @@ End all basic css -----------------------------------
 .site-menu-area {
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
+	padding: 5px 0;
 }
-.site-menu {
-	
-}
-.site-menu ul {
-	margin: 0;
+.site-menu-area .navbar {
 	padding: 0;
 }
-.site-menu ul li {
-	display: inline-block;
-}
-.site-menu ul li a {
-	display: inline-block;
-	padding: 10px 20px;
-	color: #333;
-	text-transform: uppercase;
-	text-decoration: none;
-	transition: .3s;
-}
-.site-menu ul li a:hover {
-	opacity: .8;
+.site-menu-area .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: .3s;
 }
 /*
 ==========
-Start header top area css ---------------------------
+End header area css ---------------------------
 ==========
 */
+
+/*
+==========
+Start slider area css ---------------------------
+==========
+*/
+.content-area {
+	padding: 40px 0;
+}
+/*
+==========
+End slider area css ---------------------------
+==========
+*/
+
